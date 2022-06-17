@@ -33,14 +33,10 @@ console.log(found);
         
         messageAccess = ('accesso consentito');
         
-    } else {
-    
-        console.log(messageAccess);
-    
     }
 
-console.log(messageAccess)
-
+console.log(messageAccess);
+    
 
 
 
