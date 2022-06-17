@@ -65,4 +65,8 @@ if (userNumber < aiNumber) {
 
     console.log('hai vinto')
 
+} else {
+
+    console.log('pareggio');
+
 }
