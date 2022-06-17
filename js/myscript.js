@@ -9,8 +9,9 @@
 //ASK USER FOR HIS/HER EMAIL
 const userMail = prompt('inserisci la tua mail');
 
-//MESSAGE IN CASE THE EMAIL IS WRONG
-let message = ('accesso non consentito!! ritenta');
+//MESSAGE IN CASE THE EMAIL IS NOT IN THE LIST
+let message = false;
+let messageAccess = ('accesso non consentito!! riprova')
 
 //LIST EMAIL ACCESS FREE
 const emailAccess = ["luigi@gmail.com" , "riccardo@gmail.com" , "simone@gmail.com" , "lorenzo@gmail.com" , "tiziano@libero.it" ,
@@ -20,13 +21,21 @@ const emailAccess = ["luigi@gmail.com" , "riccardo@gmail.com" , "simone@gmail.co
 
     if (userMail == emailAccess[index]) {
 
-        message = ('accesso consentito');
+        message = true;
 
     }
- 
+
+    if (userMail == emailAccess[index]) {
+
+        messageAccess = ('accesso consentito')
+
+    }
+    
+    
 }
 
- console.log(message);
+console.log(message);
+console.log(messageAccess)
 
 
 
