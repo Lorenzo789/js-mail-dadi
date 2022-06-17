@@ -1,3 +1,7 @@
+//! MAIL
+
+//? INSTRUCTIONS IN ITALIAN
+
 //chiedere all'utente con un prompt la sua mail
 //creare un array con una lista di mail concesse    
 //stampare un messaggio in console con un "accesso consentito"
@@ -23,3 +27,30 @@ const emailAccess = ["luigi@gmail.com" , "riccardo@gmail.com" , "simone@gmail.co
 }
 
  console.log(message);
+
+
+
+
+
+
+
+
+
+
+
+ //! DICE GAME
+
+
+//? INSTRUCTIONS IN ITALIAN
+
+// generare un numero randomico max 10 per il giocatore con math ecc
+// fare la stessa coa per il computer
+// fare una verifica di chi dei due ha il numero piu alto
+// messaggio per lo sconfitto e messaggio per il vincitore 
+
+const userNumber = prompt('inserisci un numero da 1 a 10');
+
+const aiNumber = Math.floor(Math.random() * 10) + 1;
+
+console.log(userNumber);
+console.log(aiNumber);
