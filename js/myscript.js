@@ -23,24 +23,21 @@ const emailAccess = ["luigi@gmail.com" , "riccardo@gmail.com" , "simone@gmail.co
 
         found = true;
 
-    } else if {
-
-        messageAccess = ('accesso consentito');
-
     }
 }
 
 console.log(found);
 
-if (found = true) {
-    
-    messageAccess = ('accesso consentito');
-    
-} else {
 
-    console.log(messageAccess);
-
-}
+    if (found == true) {
+        
+        messageAccess = ('accesso consentito');
+        
+    } else {
+    
+        console.log(messageAccess);
+    
+    }
 
 
 
