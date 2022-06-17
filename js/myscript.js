@@ -6,6 +6,8 @@
 
 const userMail = prompt('inserisci la tua mail');
 
+let message = ('accesso non consentito!! ritenta');
+
 const emailAccess = ["luigi@gmail.com" , "riccardo@gmail.com" , "simone@gmail.com" , "lorenzo@gmail.com" , "tiziano@libero.it" ,
  "francesco@libero.it" , "luca@libero.it" , "vincenzo@yahoo.it" , "chiara@yahoo.it" , "eleonora@yahoo.it"] 
 
@@ -13,12 +15,10 @@ const emailAccess = ["luigi@gmail.com" , "riccardo@gmail.com" , "simone@gmail.co
 
     if (userMail == emailAccess[index]) {
 
-        console.log("accesso consentito");
-
-    } else {
-
-        console.log('accesso non consentito!! ritenta');
+        message = ('accesso consentito');
 
     }
-    
- }
+ 
+}
+
+ console.log(message);
