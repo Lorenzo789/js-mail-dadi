@@ -28,7 +28,6 @@ const emailAccess = ["luigi@gmail.com" , "riccardo@gmail.com" , "simone@gmail.co
 
 console.log(found);
 
-
     if (found == true) {
         
         messageAccess = ('accesso consentito');
