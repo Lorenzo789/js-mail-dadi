@@ -48,9 +48,19 @@ const emailAccess = ["luigi@gmail.com" , "riccardo@gmail.com" , "simone@gmail.co
 // fare una verifica di chi dei due ha il numero piu alto
 // messaggio per lo sconfitto e messaggio per il vincitore 
 
-const userNumber = prompt('inserisci un numero da 1 a 10');
+const userNumber = prompt('inserisci un numero da 1 a 6');
 
-const aiNumber = Math.floor(Math.random() * 10) + 1;
+const aiNumber = Math.floor(Math.random() * 6) + 1;
 
 console.log(userNumber);
 console.log(aiNumber);
+
+if (userNumber < aiNumber) {
+
+    console.log('hai perso')
+
+} else if (userNumber > aiNumber) {
+
+    console.log('hai vinto')
+
+}
