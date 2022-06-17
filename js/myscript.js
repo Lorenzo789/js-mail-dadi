@@ -48,8 +48,10 @@ const emailAccess = ["luigi@gmail.com" , "riccardo@gmail.com" , "simone@gmail.co
 // fare una verifica di chi dei due ha il numero piu alto
 // messaggio per lo sconfitto e messaggio per il vincitore 
 
-const userNumber = prompt('inserisci un numero da 1 a 6');
+// RANDOM NUMBER FOR USER
+const userNumber = Math.floor(Math.random() * 6) + 1;
 
+// RANDOM NUMBER FOR AI
 const aiNumber = Math.floor(Math.random() * 6) + 1;
 
 console.log(userNumber);
